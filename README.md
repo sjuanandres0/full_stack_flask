@@ -20,5 +20,10 @@
 > pip freeze > requirements.txt
 10. Install requirements. Terminal:
 > pip install -r requirements.txt
-
+11. Run flask app. Terminal:
+> flask run
+12. __init__.py will be the initialization file. By default the app will look for this file to run it.
+13. Creating a config.py module.
+14. Creating a routes.py module for all routing patterns.
+15. Modifying the __init__.py
 
