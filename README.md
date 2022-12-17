@@ -1,7 +1,7 @@
 # Full Stack Web Development with Flask
 * https://www.linkedin.com/learning/full-stack-web-development-with-flask/
 
-## Setting up the environment.
+### 1. Setting up the environment.
 1. Create virtual environment. VENV already installed.
 2. Create venv. Terminal: 
 > py -m venv venv
@@ -27,3 +27,11 @@
 14. Creating a routes.py module for all routing patterns.
 15. Modifying the __init__.py
 
+### 2. Creating a Flask Project
+16. Creating the template for the home (index.html).
+17. Importing the render_template function
+18. Using Jinja template expression
+19. Using the include directive to include external files.
+
+### 3. Working with Templates
+20. 
