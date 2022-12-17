@@ -3,11 +3,22 @@
 
 ## Setting up the environment.
 1. Create virtual environment. VENV already installed.
-2. Create venv. Terminal: py -m venv venv
-3. Activate venv. Terminal: venv\Scripts\activate
-4. Install Flask. Terminal: pip install flask 
-5. Install Flask WTF. Terminal: pip install flask-wtf
+2. Create venv. Terminal: 
+> py -m venv venv
+3. Activate venv. Terminal: 
+> venv\Scripts\activate
+4. Install Flask. Terminal: 
+> pip install flask 
+5. Install Flask WTF. Terminal: 
+> pip install flask-wtf
 6. .flaskenv: FLASK_ENV=development, FLASK_APP=main.py
-7. Install python-dotenv. Termianl: pip install python-dotenv
-8. Deactivate the environment. Termianal: deactivate
+7. Install python-dotenv. Termianl: 
+> pip install python-dotenv
+8. Deactivate the environment. Termianal: 
+> deactivate
+9. Freeze requirements. Terminal:
+> pip freeze > requirements.txt
+10. Install requirements. Terminal:
+> pip install -r requirements.txt
+
 
