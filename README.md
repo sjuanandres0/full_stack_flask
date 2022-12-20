@@ -93,4 +93,10 @@
 2. Adding the GET and POST methods to the route
 3. Accessing form data using the form object
 
-
+#### 3.8 Sending a JSON response
+1. The Response Object
+2. Creating two APIs to send JSON response
+> Everything that comes from the URL will always be a string.
+> http://127.0.0.1:5000/api/
+> Inspect + Network
+![API Inspect Network](screenshots/api_inspect_network.png)
