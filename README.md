@@ -82,10 +82,15 @@
 3. Setting default data to a URL variable
 4. Passing a URL variable to a template
 
-#### 3.6 Working wiwth the GET method
+#### 3.6 Working with the GET method
 1. Creating the enrollment form using GET method
 2. Creating the enrollment template
 3. Creating the enrollment route (URL pattern)
 4. Accessing form data via the GET method
+
+#### 3.7 Working with the POST method
+1. Updating the enrollment form using POST method
+2. Adding the GET and POST methods to the route
+3. Accessing form data using the form object
 
 
