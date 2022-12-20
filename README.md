@@ -110,7 +110,7 @@ Stacks: `Flask`, `MongoDB`, `HTML`, `CSS`, `Bootstrap`
 1. Installing the MongoDB database system. [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 > mongodb://localhost:27017
 2. Installing the MongoEngine extension for Flask
-> pip list
+> pip list \
 > pip install flask-mongoengine
 3. Setting up the database
 4. Connecting to the database
