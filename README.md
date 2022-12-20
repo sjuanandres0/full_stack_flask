@@ -2,7 +2,9 @@
 * https://www.linkedin.com/learning/full-stack-web-development-with-flask/
 > Notes taken during the course.
 
-### 1. Setting up the environment.
+<hr/>
+
+## 1. Setting up the environment.
 1. Create virtual environment. VENV already installed.
 2. Create venv. Terminal: 
 > py -m venv venv
@@ -28,7 +30,9 @@
 14. Creating a routes.py module for all routing patterns.
 15. Modifying the __init__.py
 
-### 2. Creating a Flask Project
+<hr/>
+
+## 2. Creating a Flask Project
 #### 2.1 Creating th enrollment application
 #### 2.2 Running and configuring the development server
 #### 2.3 Creating the homepage
@@ -45,7 +49,9 @@
 24. Jinga if statement.
 > url_for('index') returns the template for that function defined in route. Good practise to avoid defining it everywhere. 
 
-### 3. Working with Templates
+<hr/>
+
+## 3. Working with Templates
 #### 3.1 Creating the base template
 25. The Jinja template inheritance logic
 26. Creating the base template
@@ -75,5 +81,11 @@
 2. Creating a URL variable
 3. Setting default data to a URL variable
 4. Passing a URL variable to a template
+
+#### 3.6 Working wiwth the GET method
+1. Creating the enrollment form using GET method
+2. Creating the enrollment template
+3. Creating the enrollment route (URL pattern)
+4. Accessing form data via the GET method
 
 
