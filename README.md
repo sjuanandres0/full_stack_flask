@@ -132,6 +132,30 @@ Stacks: `Flask`, `MongoDB`, `HTML`, `CSS`, `Bootstrap`
 3. Inserting sample user document (data) to a collection
 4. Displaying the collection to the view
 
+#### 4.4 Creating documents and data
+1. Creating collections to store documents (data)
+2. Inserting documents into our collections
+3. Using MongoDB shell commands
+> db.createCollection( `collection` ) \
+> db.`collection`.insert( { ... } ) \
+> db.`collection`.insertMany( { ... } )
+4. Inserting JSON data using the mongoimport.exe via command line
+> mongoimport --db `DB` -collection `collection` --file `file` \
+> mongoimport -d `DB` -c `collection` --file `file`
+https://www.mongodb.com/docs/database-tools/mongoimport/
+
+#### 4.5 Creating the data models
+1. Creating the models module
+2. Creating the **User** model
+3. Creating the **Course** model
+4. Creating the **Enrollment** model
+> class ModelName(db.Document): \
+>   field1 = db.IntField() \
+>   field2 = db.StringField() \
+>   ... \
+>   fieldn = db.StringField()
+
+
 
 <br/>
 <br/>
