@@ -126,6 +126,12 @@ Stacks: `Flask`, `MongoDB`, `HTML`, `CSS`, `Bootstrap`
 > db = MongoEngine() \
 > db.init_app(app)
 
+#### 4.3 Connecting to the database
+1. Connecting to the MongoDB via the MongoEngine object
+2. Hooking up a user collection using a simple user model class
+3. Inserting sample user document (data) to a collection
+4. Displaying the collection to the view
+
 
 <br/>
 <br/>
