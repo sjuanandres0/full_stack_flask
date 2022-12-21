@@ -100,9 +100,9 @@ Stacks: `Flask`, `MongoDB`, `HTML`, `CSS`, `Bootstrap`
 #### 3.8 Sending a JSON response
 1. The Response Object
 2. Creating two APIs to send JSON response
-> Everything that comes from the URL will always be a string <br/>
-> http://127.0.0.1:5000/api/ <br/>
-> Inspect + Network <br/>
+> Everything that comes from the URL will always be a string \
+> http://127.0.0.1:5000/api/ \
+> Inspect + Network \
 > ![API Inspect Network](screenshots/api_inspect_network.png)
 
 ## 4. Working with Databases
@@ -117,7 +117,18 @@ Stacks: `Flask`, `MongoDB`, `HTML`, `CSS`, `Bootstrap`
 5. Creating documents and data
 6. Creating the data model
 
+#### 4.2 Working with Databases
+1. Setting up a MongoDB database
+> MONGODB_SETTINGS = { 'db': 'UTA_Enrollment' }
+2. Importing the MongoEngine
+> From flask_mongoengine import MongoEngine
+3. Initializing the database object
+> db = MongoEngine() \
+> db.init_app(app)
 
+
+<br/>
+<br/>
 
 ---
 ## Useful Links
