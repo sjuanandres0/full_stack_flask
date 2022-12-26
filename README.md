@@ -208,7 +208,33 @@ https://www.mongodb.com/docs/database-tools/mongoimport/
 4. Verifying data in the database using Compass interface
 
 #### 5.9. Creating the courses page
-1. 
+1. Querying course data from database
+2. Populating the course template
+> order_by + - ascending, descending respectively
+
+#### 5.10. Creating the enrollment page
+1. Creating the course enrollment page
+2. Course enrollment process
+3. Performing join queries on multiple cllections using **$aggregate**
+![Aggregate](screenshots/aggregate.png)
+
+#### 5.11. Updating the enrollment template
+1. Updating the course enrollment function
+2. Updating the enrollment template to show a list of courses
+
+#### 5.12. Creating the MongoDB aggregation pipeline
+1. Exploring the MongoDB Aggregation framework using Compass interface
+2. Creating the aggregation pipeline to process data in three stages
+> $lookup: Performs a left outer join \
+> $match: Filters documents \
+> $unwind: Deconstructs an array field
+![MongoDB user aggregation lookup](screenshots/mongoDB_user_aggregation_lookup.png)
+![save_pipeline](screenshots/save_pipeline.png)
+![insert_collection_enrollment](screenshots/insert_collection_enrollment.png)
+![mongoDB_user_aggregation_lookup2](screenshots/mongoDB_user_aggregation_lookup2.png)
+![export_pipeline_to_language](screenshots/export_pipeline_to_language.png)
+
+#### 5.13. Adding the aggregation pipeline to application
 
 
 
