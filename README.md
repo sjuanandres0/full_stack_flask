@@ -160,7 +160,7 @@ https://www.mongodb.com/docs/database-tools/mongoimport/
 ---
 
 ## 5. Working with Web Forms and Flask-Security
-#### 1. Installation and configuration
+#### 5.1. Installation and configuration
 1. Installing and configuring Flask-WTF (Web Template Form) amd Flask-Security extensions
 2. Creating the login and registration pages
 3. Processing form data and updating the database
@@ -169,11 +169,46 @@ https://www.mongodb.com/docs/database-tools/mongoimport/
 ![Flask-WTF Extension](screenshots/Flask-WTF_Extension.png)
 > pip install flask-wtf flask-security 
 
-#### 2. Creating the login and registration pages
+#### 5.2. Creating the login and registration pages
 1. Creating the login and registration pages
 2. Creating form classes and updating the templates using WTForms librarie
 3. Creating alert messages using the flash() method
 
+#### 5.3. Updating the login route and ogin template
+1. Updating the login route to capture form data
+2. Updating the login template using WTForms library
+
+#### 5.4. Flashing messages
+1. Creating alert messages using the flash() method (source)
+2. Retrieving flash messages suing the get_flashed_mesages() (view)
+
+#### 5.5. Displaying form validation error messages
+1. Validating form data
+2. Showing inline error messages fo form fields
+3. Styling and formatting error messages
+
+#### 5.6. Processing form data and updating the database
+1. Form data validation
+2. Processing form data for database update
+3. Hashing password using Werkzeug library (a WSGI web application library)
+> `Hashing`: generate_password_hash('password') \
+> `Unhashing`: check_password_hash(password, 'password')
+
+#### 5.7. Updating login route to interact with database
+1. Form data validation
+2. Validatin email addresses
+3. Hashing password using Werkzeug library (a WSGI web application library)
+> `Hashing`: generate_password_hash('password') \
+> `Unhashing`: check_password_hash(password, 'password')
+
+#### 5.8. Updating registration route to interact with database
+1. Validating form data
+2. Hashing password using Werkzeug library (a WSGI web application library)
+3. Inserting data into the database
+4. Verifying data in the database using Compass interface
+
+#### 5.9. Creating the courses page
+1. 
 
 
 
