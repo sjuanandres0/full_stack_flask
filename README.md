@@ -105,6 +105,8 @@ Stacks: `Flask`, `MongoDB`, `HTML`, `CSS`, `Bootstrap`
 > Inspect + Network \
 > ![API Inspect Network](screenshots/api_inspect_network.png)
 
+---
+
 ## 4. Working with Databases
 #### 4.1 Installing database systems
 1. Installing the MongoDB database system. [MongoDB Community Server](https://www.mongodb.com/try/download/community)
@@ -154,6 +156,24 @@ https://www.mongodb.com/docs/database-tools/mongoimport/
 >   field2 = db.StringField() \
 >   ... \
 >   fieldn = db.StringField()
+
+---
+
+## 5. Working with Web Forms and Flask-Security
+#### 1. Installation and configuration
+1. Installing and configuring Flask-WTF (Web Template Form) amd Flask-Security extensions
+2. Creating the login and registration pages
+3. Processing form data and updating the database
+4. Creation the courses and enrollment pages
+5. Creating sessions and authentication
+![Flask-WTF Extension](screenshots/Flask-WTF_Extension.png)
+> pip install flask-wtf flask-security 
+
+#### 2. Creating the login and registration pages
+1. Creating the login and registration pages
+2. Creating form classes and updating the templates using WTForms librarie
+3. Creating alert messages using the flash() method
+
 
 
 
