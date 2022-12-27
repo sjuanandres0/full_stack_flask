@@ -8,7 +8,7 @@
                 <h1>You are not enrolled in any class</h1>
             {% else %}
                 <h1>You are enrolled in:</h1>
-                <h3>Term: {{ term }}</h3>
+                <!-- <h3>Term: {{ term }}</h3> -->
 
                 <table class="table table-hover">
                     <thead>
@@ -23,13 +23,13 @@
                     <tbody>
         
                     <!-- Construct the rest of courses here -->
-                    {% for class in classess %}
+                    {% for class in classes %}
                     <tr>
-                        <td scope='row'>{{ class["courseID"] }}</td>
-                        <td>{{ class["title"] }}</td>
-                        <td>{{ class["description"] }}</td>
-                        <td>{{ class["credits"] }}</td>
-                        <td>{{ class["term"] }}</td>
+                        <td scope='row'>{{ class.r2["courseID"] }}</td>
+                        <td>{{ class.r2["title"] }}</td>
+                        <td>{{ class.r2["description"] }}</td>
+                        <td>{{ class.r2["credits"] }}</td>
+                        <td>{{ class.r2["term"] }}</td>
                     </tr>
                     {% endfor %}
                     </tbody>

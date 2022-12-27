@@ -235,6 +235,33 @@ https://www.mongodb.com/docs/database-tools/mongoimport/
 ![export_pipeline_to_language](screenshots/export_pipeline_to_language.png)
 
 #### 5.13. Adding the aggregation pipeline to application
+1. Updating the enrollment route to interact with the database
+2. Integrating the aggregation pipeline into the application
+
+#### 5.14. Creating sessions and authentication
+1. State management and user authentication using Flask-Session
+2. The session object stores information specific to a  user
+3. Implementation on top of cookies and signs cookies cryptographically
+4. Easy to use and implement
+> https://flask-login.readthedocs.io/en/latest/ \
+> Generate key: py -c "import os; print(os.urandom(16))"
+
+#### 5.15. Setting up the session for the logout an denrollment routes
+1. Creating the Logout route
+2. Setting up sessions and Enrollment routes
+
+#### 5.16. Updating the navigation and testing the session
+1. Configuring the navigation to use sessions
+2. Testing the sessions
+
+#### 5.17. Adding the welcome message to layout
+1. Adding a welcome user messages to the layout
+2. Modifying the stylesheet to format the welcome message
+3. Testing the layout
+
+---
+
+## 6. Creating and Testing REST APIs Using Postman
 
 
 
